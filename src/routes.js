@@ -25,7 +25,6 @@ import LibraryBooks from "@material-ui/icons/LibraryBooks";
 import LoginPage from "views/Auth/LoginPage"
 import DashboardPage from "views/Dashboard/Dashboard.js";
 import UserProfile from "views/UserProfile/UserProfile.js";
-import TableList from "views/TableList/TableList.js";
 import Typography from "views/Typography/Typography.js";
 
 
@@ -50,15 +49,7 @@ const dashboardRoutes = [
     icon: Person,
     component: UserProfile,
     layout: "/admin"
-  },
-  {
-    path: "/table",
-    name: "Image List",
-    icon: "content_paste",
-    component: TableList,
-    layout: "/admin"
-  },
-  
+  }
 ];
 
 export default dashboardRoutes;
